@@ -1,0 +1,50 @@
+How did viewing a diff between two versions of a file help you see the 
+bug that was introduced?
+
+	Principally when I work with a huge file with many lines of code and 
+	for X reason I change something somewhere, that could corrupt the main 
+	purpose of my work, so comparing with another version of the file could 
+	be more easy to find my error.
+
+How could having easy access to the entire history of a file make you a 
+more efficient programmer in the long term?
+
+	Having the entire history of a file is more easy to find all changes that
+	I did so I can find errors or if I lost my current file I don't have to 
+	start again.
+
+What do you think are the pros and cons of manually choosing when to create 
+a commit, like you do in Git, vs having versions automatically saved, like
+Google Docs does?
+
+	pros manually: many commit as I decide; easy to find changes with few
+	commits.
+	cons manually: if I didn't commit for a log time it could be more
+	difficult to find an error.
+
+Why do you think some version control systems, like Git, allow saving 
+multiple files in one commit, while others, like Google Docs, treat each 
+file separately?
+
+	Because in many times developers works with files that are all connected
+	so commit all at once is the best way to have the corresponding files in
+	a time.
+
+How can you use the commands git log and git diff to view the history of files?
+
+	Git log is used to show all the commits and the git diff is for finde the
+	changes comparing two commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+	In this case using the get checkout could help to test which is the best
+	option to start with when something is broke; and others like git diff
+	is the most useful in my opinion (by now) because it shows the changes
+	that could broke the file.
+
+Now that you have your workspace set up, what do you want to try using
+Git for?
+
+	I am a university student so probably I could use for many of my future
+	projects.
