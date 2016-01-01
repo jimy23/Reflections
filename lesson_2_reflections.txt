@@ -11,3 +11,32 @@ repository? What value do you think it offers?
 	call a commit, the working directory I think is the current state of
 	the files.
 
+How can you use the staging area to make sure you have one commit per 
+logical change?
+
+	Using the git diff --staged I can find that.
+
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+	Right now I'm thinking about beta changes in a project like new
+	implementations, new features, new languages, etc.
+
+How do the diagrams help you visualize the branch structure?
+
+	It was very helpful to understand how works branches. It shows good
+	where is a branch respecting the commits.
+
+What is the result of merging two branches together? Why do we represent
+it in the diagram the way we do?
+
+	The result is one branch that containt the "best" from the two merged
+	branches and it is represented in that way because is the graphicaly
+	form (and I think the best) to show it
+
+What are the pros and cons of Git’s automatic merging vs. always doing
+merges manually?
+
+	Doing manual merges makes more secure the steps than doing automatic, 
+	but in many cases it is not much relevant (like simple lines of coding) 
+	so is recommended to use that way.
